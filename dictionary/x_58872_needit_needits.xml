@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="534ea6a647d08210c4efba48436d43d5" extends="task" label="NeedIts" max_length="40" name="x_58872_needit_needits" type="collection">
+        <element label="Kontinent" max_length="40" name="kontinent" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="moznost 1" dependent="state" dependent_on_field="state" label="New Choice" max_length="40" name="u_choice_3" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+    </element>
+</database>
